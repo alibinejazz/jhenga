@@ -10,6 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
   }
   
 
@@ -19,15 +20,22 @@ body{
     background-color:  rgba(138, 138, 138, 0.4);
     color: white;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(1, 1, 1, 0.5);
+    box-shadow: 0 0 10px #01010180;
+    margin-left: 450px;
 }
 
+
+@media (max-width: 768px) {
+    .SignupPage{
+        margin-left: 0;
+    }
+}
 .formm{
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* align-items: flex-start; */
-    gap: 20px;
+    gap: 10px;
     margin-top: 50px;
 }
 
