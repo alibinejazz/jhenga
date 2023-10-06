@@ -3,13 +3,12 @@ body{
     margin: 0px;
     
 }
-
-/* LoginForm.css */
 .myContainer {
     background-image: url("https://www.hdwallpapers.in/download/bridge_between_buildings_and_godowns_hd_dark_aesthetic-1920x1080.jpg");
     min-height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
     gap: 10px;
   }
@@ -17,13 +16,11 @@ body{
 
 .LoginPage{
     width: 400px;
-    height: 500px;
+    height: 550px;
     background-color: rgba(138, 138, 138, 0.4);
     color: white;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(1, 1, 1, 0.5);
-    margin-left: 450px;
-}
+    box-shadow: 0 0 10px rgba(1, 1, 1, 0.5);}
 
 @media (max-width: 768px) {
     .LoginPage {
@@ -39,8 +36,8 @@ body{
 }
 
 
-input{
-    width: 250px;
+.login-inp{
+    width: 350px;
     height: 45px;
     border-radius: 10px;
     border: 1px solid black;
@@ -49,12 +46,18 @@ input{
     font-size: 20px;
 }
 
-button{
+.loginbutt{
     width: 250px;
     height: 45px;
     border-radius: 10px;
     cursor: pointer;
     color: black;
+}
+
+.loginbutt:hover{
+    box-shadow: 10px 10px 0px #111111;
+    top: -5px;
+    left:-5px;
 }
 
 span{
@@ -66,4 +69,25 @@ span{
     position: absolute;
     margin-bottom: 450px;
     font-size: 12px;
+}
+
+.google-signin-button{
+    background-color: #4C8BF5;
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    color: black;
+}
+
+.google-signin-button:hover{
+    box-shadow: 10px 10px 0px #111111;
+    top: -5px;
+    left:-5px;
+}
+
+.logintextarea{
+    width: 400px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-style: oblique;
 }
